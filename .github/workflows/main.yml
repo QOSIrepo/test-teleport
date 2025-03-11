@@ -24,7 +24,7 @@ jobs:
         uses: teleport-actions/auth-k8s@v2
         with:
           # Specify the publically accessible address of your Teleport proxy.
-          proxy: example.teleport.sh:443
+          proxy: qosi-fy42dq.ztna.kz:443
           # Specify the name of the join token for your bot.
           token: github-actions-blog-demo
           # Specify the length of time that the generated credentials should be
