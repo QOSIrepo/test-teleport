@@ -20,7 +20,6 @@ jobs:
         with:
           version: 16.4.0
       - name: Authenticate with Teleport
-        # https://github.com/teleport-actions/auth-k8s
         uses: teleport-actions/auth-k8s@v2
         with:
           # Specify the publically accessible address of your Teleport proxy.
