@@ -37,4 +37,4 @@ jobs:
           # See https://goteleport.com/docs/reference/machine-id/telemetry/ for
           # more information.
           anonymous-telemetry: 1
-      - run: kubectl apply -f ./manifests/deployment.yaml
+      - run: ls -R
