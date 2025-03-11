@@ -27,8 +27,6 @@ jobs:
           # Specify the name of the join token for your bot.
           token: github-actions-blog-demo
           # Specify the length of time that the generated credentials should be
-          # valid for. This is optional and defaults to "1h".
-          # Here we've limited it to 10m as this CI job doesn't need longer.
           certificate-ttl: 10m
           # Specify the name of the Kubernetes cluster the credentials will be
           # generated for.
